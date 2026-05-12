@@ -29,7 +29,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'DocenteDigital', // Usually your GitHub org/user name.
   projectName: 'ServidorWeb', // Usually your repo name.
-  deploymentBranch: 'gh-page',
+  deploymentBranch: 'gh-pages',
   trailingSlash: false,
   onBrokenLinks: 'throw',
 
