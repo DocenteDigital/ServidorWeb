@@ -25,7 +25,7 @@ Un contenedor de Docker empaqueta:
 
 **Todo en una caja aislada del resto del mundo.**
 
-## ⚖️ Comparativa: Virtualización vs. Contenedores
+##  Comparativa: Virtualización vs. Contenedores
 
 Es común confundir un contenedor con una **Máquina Virtual (VM)** (como las de VirtualBox), pero hay una diferencia de rendimiento abismal:
 
@@ -36,7 +36,7 @@ Es común confundir un contenedor con una **Máquina Virtual (VM)** (como las de
 | **Rendimiento** | Consume mucha RAM y CPU | Casi no tiene impacto en el host |
 | **Aislamiento** | Total (Hardware virtualizado) | Alto (Comparte el Kernel del SO) |
 
-## 🛠️ ¿Por qué Docker es tu nuevo mejor amigo?
+##  ¿Por qué Docker es tu nuevo mejor amigo?
 
 1. **Entornos idénticos**: Lo que funciona en tu portátil, funcionará en el servidor de Amazon o Google exactamente igual.
 2. **Sin conflictos de versiones**: Puedes tener 10 contenedores con 10 versiones diferentes de PHP funcionando a la vez.

@@ -6,7 +6,7 @@ description: Aprende a gestionar los datos y la comunicación entre servicios pa
 
 En el tema anterior vimos que los contenedores son geniales, pero tienen un defecto: **no tienen memoria**. Si guardas algo en la base de datos de un contenedor y lo borras, los datos se van con él. Vamos a solucionar esto.
 
-## 💾 Persistencia: Los Volúmenes
+##  Persistencia: Los Volúmenes
 
 En Docker, un **Volumen** es un disco duro externo virtual que conectamos al contenedor. Imagina que el contenedor es una GameBoy: el volumen es el cartucho donde se guardan las partidas. Puedes cambiar de consola (contenedor), pero si pones el cartucho (volumen), tu partida sigue ahí.
 
@@ -16,7 +16,7 @@ En Docker, un **Volumen** es un disco duro externo virtual que conectamos al con
 
 ---
 
-## 🌐 Redes: Cómo se comunican los servicios
+##  Redes: Cómo se comunican los servicios
 
 Por defecto, los contenedores están aislados. Si tienes un contenedor con **PHP** y otro con **MySQL**, no se conocen. Necesitamos meterlos en la misma "sala de chat" o **Red Privada**.
 
@@ -33,7 +33,7 @@ graph LR
 - **DNS Interno**: Puedes conectar PHP a la base de datos usando el nombre del contenedor (ej: `db`) en lugar de una IP.
 - **Seguridad**: La base de datos MySQL puede estar en una red privada sin salida a internet, protegida de ataques externos.
 
-## 📝 Caso Práctico: MySQL con persistencia
+##  Caso Práctico: MySQL con persistencia
 
 Si quisiéramos lanzar una base de datos MySQL que no pierda los datos, usaríamos:
 

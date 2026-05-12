@@ -6,7 +6,7 @@ description: Tutorial práctico para desplegar tu primer servidor web con PHP us
 
 ¡Es hora de la acción! Vamos a desplegar un servidor web Apache con PHP sin instalar nada más que Docker. Olvida los instaladores pesados; solo necesitamos un comando.
 
-## 📝 Preparando nuestro código
+## Preparando nuestro código
 
 Antes de lanzar Docker, crea una carpeta en tu ordenador llamada `mi-web` y, dentro, un archivo `index.php` con este contenido:
 
@@ -18,7 +18,7 @@ Antes de lanzar Docker, crea una carpeta en tu ordenador llamada `mi-web` y, den
 ?>
 ```
 
-## 🚢 Lanzando el Contenedor
+##  Lanzando el Contenedor
 
 Abre tu terminal dentro de esa carpeta y ejecuta el siguiente comando (léelo con calma, ahora lo explicamos):
 
@@ -36,11 +36,11 @@ docker run -d -p 8080:80 --name mi-servidor -v ${PWD}:/var/www/html php:8.2-apac
 
 ---
 
-## 🔍 Verificación
+##  Verificación
 
 Abre tu navegador y entra en `http://localhost:8080`. Si ves el mensaje y la tabla de `phpinfo()`, ¡estás ejecutando PHP dentro de un contenedor!
 
-## 🛠️ Comandos de Supervivencia
+##  Comandos de Supervivencia
 
 Aquí tienes el "kit de emergencia" para gestionar tus contenedores:
 

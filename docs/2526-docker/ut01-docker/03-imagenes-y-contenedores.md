@@ -6,7 +6,7 @@ description: Domina los dos conceptos técnicos que definen todo el ecosistema d
 
 Si no entiendes la diferencia entre una imagen y un contenedor, estarás perdido cuando empieces a escribir comandos. Vamos a usar una analogía que nunca olvidarás.
 
-## 🏗️ La Metáfora de la Construcción
+##  La Metáfora de la Construcción
 
 Imagina que eres un arquitecto:
 
@@ -15,7 +15,7 @@ Imagina que eres un arquitecto:
 
 ---
 
-## 💾 ¿Qué es realmente una Imagen?
+##  ¿Qué es realmente una Imagen?
 
 Técnicamente, una imagen de Docker es un **fichero comprimido** que contiene todo lo necesario para que una aplicación funcione. Lo más fascinante es que se construye por **capas**:
 
@@ -26,13 +26,13 @@ Técnicamente, una imagen de Docker es un **fichero comprimido** que contiene to
 
 Estas capas son **de solo lectura**. Esto hace que las imágenes sean increíblemente ligeras porque si tienes 10 contenedores de PHP, todos comparten las mismas capas base en tu disco duro.
 
-## 🏃 ¿Qué es un Contenedor?
+## ¿Qué es un Contenedor?
 
 Es una imagen en ejecución. Cuando lanzas un contenedor, Docker añade una **pequeña capa de escritura** encima de la imagen. 
 - Todo lo que creas o borres dentro del contenedor ocurre en esa capa de escritura. 
 - **¡Importante!**: Si borras el contenedor, esa capa de escritura desaparece. Por eso decimos que los contenedores son **efímeros**.
 
-## 🌐 Docker Hub: La Biblioteca de Planos
+##  Docker Hub: La Biblioteca de Planos
 
 ¿De dónde sacamos estas imágenes? De [Docker Hub](https://hub.docker.com/). Es como el "GitHub de las imágenes".
 - Existen **Imágenes Oficiales**: mantenidas por los creadores del software (PHP, MySQL, Nginx).

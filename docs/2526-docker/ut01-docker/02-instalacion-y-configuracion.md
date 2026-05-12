@@ -6,7 +6,7 @@ description: Paso a paso para configurar tu entorno Windows con WSL 2 y Docker D
 
 Instalar Docker en Windows solía ser un dolor de cabeza. Hoy, gracias a **WSL 2 (Windows Subsystem for Linux)**, es una experiencia fluida y profesional.
 
-## 🧱 El Cimiento: WSL 2 (Windows Subsystem for Linux)
+##  El Cimiento: WSL 2 (Windows Subsystem for Linux)
 
 Docker no corre nativamente sobre el núcleo (kernel) de Windows. Necesita Linux. WSL 2 permite que Windows ejecute un núcleo de Linux real dentro de tu sistema sin ralentizarlo.
 

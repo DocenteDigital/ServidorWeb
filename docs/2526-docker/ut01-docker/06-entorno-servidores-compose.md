@@ -8,7 +8,7 @@ Lanzar comandos `docker run` larguísimos es propenso a errores. Para aplicacion
 
 Con un solo archivo YAML, definimos toda nuestra infraestructura.
 
-## 📝 El archivo `docker-compose.yml`
+##  El archivo `docker-compose.yml`
 
 Imagina que este archivo es el "Menú" de un restaurante. Tú eliges qué platos quieres y Docker los cocina todos a la vez.
 
@@ -54,7 +54,7 @@ volumes:
 
 ---
 
-## 🏗️ Arquitectura del Entorno
+##  Arquitectura del Entorno
 
 ```mermaid
 graph TD
@@ -65,7 +65,7 @@ graph TD
     Source[Carpeta /src] ---|Bind Mount| Web
 ```
 
-## 🚀 Cómo ponerlo en marcha
+##  Cómo ponerlo en marcha
 
 1.  Crea una carpeta para tu proyecto.
 2.  Crea el archivo `docker-compose.yml` con el código de arriba.
@@ -77,7 +77,7 @@ graph TD
 
 **¡Boom!** Tienes tres servidores corriendo, conectados entre sí y con persistencia de datos.
 
-## 🛑 Comandos de Gestión de Compose
+##  Comandos de Gestión de Compose
 
 - **Ver estado**: `docker-compose ps`
 - **Ver logs (errores de PHP)**: `docker-compose logs -f web`

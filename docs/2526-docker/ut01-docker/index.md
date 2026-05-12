@@ -8,7 +8,7 @@ description: Guía completa de inicio a Docker para alumnos de DAW. De XAMPP a l
 
 Hasta ahora, probablemente hayas usado herramientas como **XAMPP o WAMP**. Son geniales para empezar, pero en el mundo real, los servidores no se gestionan instalando un `.exe` y dando a un botón de "Start". Se gestionan mediante **Contenedores**.
 
-## 🎯 Objetivos de esta Unidad
+##  Objetivos de esta Unidad
 
 Al finalizar esta unidad, serás capaz de:
 - **Comprender** la diferencia real entre la virtualización tradicional y la de contenedores.
@@ -17,7 +17,7 @@ Al finalizar esta unidad, serás capaz de:
 - **Orquestar** un entorno completo de **PHP y MySQL** que sea idéntico al que usarás en producción.
 - **Solucionar** el mítico problema de: *"¡Pero si en mi ordenador funcionaba!"*.
 
-## 🗺️ Mapa de la Unidad
+## Mapa de la Unidad
 
 Para que no te pierdas, hemos dividido el aprendizaje en bloques lógicos:
 
